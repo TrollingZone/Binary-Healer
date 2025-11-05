@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-2004.2.8-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-![Status](https://img.shields.io/badge/status-Beta-orange)
+![Status](https://img.shields.io/badge/status-Stable-green)
 
 **Sci-fi themed file recovery tool for Windows**
 

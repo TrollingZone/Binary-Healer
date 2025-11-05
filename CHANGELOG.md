@@ -1,10 +1,20 @@
 # 📜 Changelog
 
-## v2004.2.8 - Phoenix Byte Edition (Beta) - November 4, 2025
+## v2004.2.8 - Phoenix Byte Edition (Stable) - November 4, 2025
 
-### 🎉 Initial Release
+### 🎉 Stable Release
 
-First public release of Binary Healer - a sci-fi themed file recovery tool with raw disk scanning capabilities.
+Stable release of Binary Healer - a sci-fi themed file recovery tool with raw disk scanning capabilities.
+
+**Improvements from Beta:**
+- Enhanced UI/UX with better visual hierarchy
+- Improved table performance and column sizing
+- Better tooltips with detailed scan mode information
+- File counter display showing total files found
+- Larger, more clickable buttons with hover cursors
+- Cleaner table design without grid lines
+- Optimized window sizing and minimum dimensions
+- Better visual feedback throughout the app
 
 ---
 
