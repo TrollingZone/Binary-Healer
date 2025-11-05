@@ -1,208 +1,68 @@
-# 📜 Binary Healer - Changelog
+# 📜 Changelog
 
-## Version 2004.2.8 - "Phoenix Byte" (Professional) - November 2025
+## v2004.2.8 - Phoenix Byte Edition (Beta) - November 4, 2025
 
-### 🎉 Professional Release with RAW DISK SCANNING!
+### 🎉 Initial Release
 
-This is the professional release of Binary Healer - a powerful file recovery tool with forensic-grade raw disk scanning capabilities. Can recover permanently deleted files!
-
----
-
-### 🚀 What's New in This Version
-
-**MAJOR: Raw Disk Scanning**
-- Can now recover permanently deleted files!
-- Scans raw disk sectors for file signatures
-- Works with Shift+Delete and emptied Recycle Bin
-- Requires administrator privileges
-- Uses professional forensic techniques
-
-**Drive Selection**
-- Choose specific drives to scan
-- Visual feedback (green = selected, gray = not selected)
-- Status display shows selected drives
-- Faster, more focused scans
-
-**Enhanced File Detection**
-- Shows permanently deleted files (metadata only) with warnings
-- 25+ file type signatures (JPG, PNG, PDF, MP4, etc.)
-- Better confidence ratings
-- Clear indicators for recoverable vs unrecoverable files
-
-**UI Improvements**
-- Administrator status indicator in header
-- 4 scan modes: Quick, Deep, Raw, Sector
-- Cancel scan button
-- Better progress feedback
-- Clearer error messages
+First public release of Binary Healer - a sci-fi themed file recovery tool with raw disk scanning capabilities.
 
 ---
 
 ### ✨ Features
 
-**User Interface:**
-- Dark sci-fi themed interface with neon cyan accents
-- Custom splash screen with branding
-- Tabbed interface (Scan & Recover, Settings, Logs)
-- Responsive design with progress indicators
-- Professional styling throughout
-- **Automatic administrator privilege elevation on startup**
-
-**Scanning:**
-- Quick Scan: Recycle Bin only (~seconds)
-- Deep Scan: Recycle Bin + Shadow Copies (~minutes)
-- **RAW SCAN: Raw disk sector scanning** - finds permanently deleted files! (~10-30 min)
-- **SECTOR SCAN: Full disk analysis** - maximum recovery effort (hours)
-- **Shows ONLY deleted/recoverable files** - no existing files
-- Drive selection with visual feedback (green/gray buttons)
-- Multi-drive support with individual selection
-- Real-time progress tracking with ETA
-- Background threading for responsive UI
-- File metadata display (name, type, size, date, confidence)
-- Smart filtering by file type and size
-- Color-coded confidence levels
-- Search functionality
-- View modes (individual files or folders)
-- Scan cancellation support
+**Scan Modes:**
+- Quick Scan - Recycle Bin only (~seconds)
+- Deep Scan - Recycle Bin + Shadow Copies (~minutes)
+- Raw Scan - Raw disk sector scanning for permanently deleted files (~10-30 min)
+- Sector Scan - Full disk forensic analysis (~hours)
 
 **Recovery:**
-- Single file recovery
-- Bulk file recovery
-- Custom recovery destination
-- Automatic duplicate handling
-- Safe, non-destructive operations
-- Success/failure reporting
+- Multi-drive selection with visual feedback
+- Real-time progress tracking with ETA
+- Confidence ratings (High/Medium/Low)
+- Search and filter by type/size
+- Batch recovery with duplicate handling
+- File signature detection (25+ types)
 
-**Raw Disk Scanning (NEW!):**
-- Uses pywin32 for low-level disk access
-- File signature detection (25+ file types)
-- Scans unallocated disk space
-- Finds permanently deleted files (Shift+Delete, emptied Recycle Bin)
-- Works on any drive with administrator privileges
-- Quick mode: First 10% of disk
-- Full mode: Entire disk sector-by-sector
-
-**Additional Features:**
-- Activity logging system with timestamps
-- Settings management (view modes, file visibility)
-- Comprehensive error handling
+**UI:**
+- Dark sci-fi themed interface
 - Smooth animated progress bar
-- Deleted file indicators (🗑️)
-- Permanently deleted file warnings (⚠️)
-- Administrator status indicator (🔒 ADMIN)
-- In-app help and troubleshooting guide
-- Multi-threaded operations for responsiveness
+- Activity logging
+- Scan cancellation
+- Administrator status indicator
+- In-app help guide
 
 ---
 
-### 🛠️ Technical Details
+### 🐛 Bug Fixes
 
-**Architecture:**
-- Modular code organization (UI, Engine, Utils)
+- Fixed PyQt6 compatibility issue causing startup crash
+- Improved status bar messaging during scans
+- Better handling of large result sets (300k+ files)
+- Enhanced overflow warnings for display limits
+
+---
+
+### 🛠️ Technical
+
 - PyQt6-based GUI
 - Multi-threaded scanning
-- Clean separation of concerns
-
-**Dependencies:**
-- PyQt6 (required)
-- pygame (optional, for sound effects)
-
-**Platform:**
-- Windows 11 (primary)
-- Windows 10 (compatible)
-- Python 3.10+ required
+- Raw disk access via pywin32
+- File signature detection
+- Modular architecture
 
 ---
 
-### 📦 Distribution
+### ⚠️ Known Issues
 
-**Included Files:**
-- Complete source code
-- Batch file installers (install.bat, run.bat, build.bat)
-- Comprehensive documentation
-- Logo and splash screen assets
-- Example sound effects structure
-
-**Build Options:**
-- Run from source
-- Build standalone executable with PyInstaller
+- Display limited to first 10,000 files (all files still recoverable)
+- Raw/Sector scans require administrator privileges
+- Shadow Copy access may need admin for other users' files
 
 ---
 
-### ✅ Verified Features
+### 📝 Notes
 
-**Tested and Working:**
-- ✓ Recycle Bin scanning (8 files found in testing)
-- ✓ Multi-drive support (C:\, G:\, P:\ verified)
-- ✓ File type detection (Images, Documents, Videos, Audio, Archives)
-- ✓ Confidence level assignment (High 90-95%, Medium 70%, Low 20%)
-- ✓ File recovery operations
-- ✓ Search and filtering
-- ✓ UI responsiveness with threading
-- ✓ Progress tracking with ETA
+This is a BETA release. Please report bugs and feedback via GitHub Issues.
 
-### ⚠️ Known Limitations
-
-- Shadow Copy access requires administrator privileges for full functionality
-- USN Journal scanning requires administrator privileges
-- No deep disk sector scanning (planned for future)
-- No file preview feature (planned for future)
-- No network drive support (planned for future)
-- Windows-only at this time
-
-**Note:** Core recovery features work perfectly without admin rights for your own files.
-
----
-
-### 🎯 Future Roadmap
-
-**Planned for Next Versions:**
-- Deep disk sector scanning
-- Enhanced recovery algorithms
-- File preview capabilities
-- Support for more file systems
-- Network drive recovery
-- Linux and macOS support
-- Disk imaging features
-- Cloud backup integration
-
----
-
-### 🙏 Credits
-
-**Phoenix Byte Edition**
-- Version: 2004.2.8
-- Status: Stable
-- Release Date: November 2025
-- Tested and verified working
-
----
-
-### 📝 Version Naming Convention
-
-Binary Healer uses a unique versioning system:
-- **Edition Name**: Each major version has a unique name (Phoenix Byte)
-- **Version Number**: YYYY.M.P format
-  - YYYY: Year-based major version
-  - M: Minor version
-  - P: Patch version
-
----
-
-## Future Versions
-
-### Coming Soon: Version 2004.3.x
-- Bug fixes based on beta feedback
-- Performance improvements
-- UI refinements
-
-### Planned: Version 2005.x.x - "TBD Edition"
-- New edition name
-- Major feature additions
-- Enhanced recovery capabilities
-
----
-
-**Stay tuned for updates!** 🔮✨
-
-Each new version will be documented here with full details of changes, improvements, and new features.
+Recovery success depends on disk usage after deletion. Act fast for best results!
