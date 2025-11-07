@@ -1,49 +1,54 @@
-# 🔮 Binary Healer - Phoenix Byte Edition
+# 🧬 Binary Healer - Twin Helix Edition
 
-![Version](https://img.shields.io/badge/version-2004.2.8-blue)
+![Version](https://img.shields.io/badge/version-2005.11.11-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-![Status](https://img.shields.io/badge/status-Stable-green)
+![Status](https://img.shields.io/badge/status-Beta-orange)
 
-**Sci-fi themed file recovery tool for Windows**
+**Professional file recovery with advanced forensic technology**
 
-Recover deleted files from Recycle Bin, Shadow Copies, and raw disk sectors.
+Recover deleted files using multiple scanning methods and professional recovery techniques.
 
 ---
 
 ## 🚀 Quick Start
 
 1. Download from [Releases](../../releases)
-2. Run as Administrator (for raw disk scanning)
+2. Run as Administrator (for forensic/raw scanning)
 3. Select drives to scan
-4. Choose scan mode (Quick/Deep/Raw/Sector)
+4. Choose scan mode (Quick/Deep/Forensic/Raw/Sector)
 5. Recover your files
+
+**New in v2005.11.11:** 🧬 **Forensic Scan** - 10x faster professional recovery with unlimited results display!
 
 ---
 
 ## ✨ Features
 
-### 4 Scan Modes
+### 5 Scan Modes
 - **Quick Scan** - Recycle Bin only (~seconds)
-- **Deep Scan** - + Shadow Copies (~minutes)
-- **Raw Scan** - + Raw disk sectors, finds permanently deleted files (~10-30 min) ⚡
-- **Sector Scan** - Full disk forensic analysis (~hours) 🔬
+- **Deep Scan** - Advanced search (~minutes)
+- **🧬 Forensic Scan** - Professional analysis (~30s-2min) ⚡ **10x FASTER!**
+- **Raw Scan** - Deep disk analysis (~10-30 min)
+- **Sector Scan** - Maximum recovery (~hours) 🔬
 
 ### Smart Recovery
+- **Unlimited results display** (tested with 173k+ files!)
 - Multi-drive selection
 - Real-time progress with ETA
 - Confidence ratings (High/Medium/Low)
 - Search & filter by type/size
 - Batch recovery
-- Dark sci-fi UI theme
+- Modern dark sci-fi UI with smooth animations
+- Professional forensic analysis
 
 ---
 
 ## 💡 What Can It Recover?
 
 ✅ **Recycle Bin files** (95%+ success)  
-✅ **Shadow Copy versions** (70-90% if enabled)  
-✅ **Permanently deleted files** (30-60% via raw scan)  
-✅ **File signature detection** (JPG, PNG, PDF, MP4, etc.)
+✅ **Previous file versions** (70-90% if available)  
+✅ **Permanently deleted files** (30-60% success)  
+✅ **Multiple file types** (Images, Documents, Videos, Audio, etc.)
 
 ❌ **Cannot recover:** Overwritten data, formatted drives, physically damaged disks
 
@@ -85,7 +90,7 @@ Recover deleted files from Recycle Bin, Shadow Copies, and raw disk sectors.
 
 - Windows 10/11
 - 4GB RAM (8GB recommended)
-- Administrator privileges (for raw scanning)
+- Administrator privileges (for advanced scanning)
 
 ---
 
@@ -112,9 +117,21 @@ Proprietary software. Free for personal use. See LICENSE for details.
 
 ---
 
+## 🎨 What's New in Twin Helix Edition
+
+- 🧬 **Forensic Scan Mode** - Professional recovery 10x faster
+- ♾️ **Unlimited Results** - Display all found files (no 10k limit)
+- 🎭 **Modern UI** - Smooth animations and professional design
+- 🚀 **Enhanced Performance** - Optimized for large result sets
+- 🔧 **Bug Fixes** - Resolved animation conflicts and warnings
+
+---
+
 <div align="center">
 
-**Binary Healer v2004.2.8 Beta**
+**Binary Healer v2005.11.11 - Twin Helix Edition**
+
+Release Date: November 6, 2025
 
 Made with ❤️ and Python
 

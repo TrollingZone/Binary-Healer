@@ -1,5 +1,70 @@
 # 📜 Changelog
 
+## v2005.11.11 - Twin Helix Edition (Beta) - November 6, 2025
+
+### 🎉 Major Update - Twin Helix Technology
+
+**Twin Helix** = Two powerful recovery methods working together!
+
+### 🚀 New Features
+
+**🧬 Forensic Scan Mode (NEW!)**
+- Professional forensic analysis technology
+- **10x FASTER** than Raw Scan (30s-2min vs 10-30min)
+- Advanced file system analysis
+- Finds deleted file entries with full metadata
+- Industry-standard recovery methods
+
+**Multi-File System Support:**
+- Windows drives (NTFS, FAT32, exFAT)
+- USB drives and SD cards
+- External hard drives
+- Multiple drive types
+
+**Unlimited Results Display:**
+- **NO MORE 10,000 FILE LIMIT!**
+- All scan results now displayed in table
+- Tested with 173,999+ files successfully
+- Smooth loading with progress updates
+- All files visible and recoverable
+
+**🎨 Enhanced UI/UX:**
+- Modern dark sci-fi theme with smooth animations
+- Fade-in effects for startup
+- Animated progress bars with gradients
+- Smooth hover effects on all interactive elements
+- Better visual hierarchy and spacing
+- Professional appearance
+
+### ✨ Improvements
+
+- New Forensic Scan button with purple/magenta accent
+- Better scan mode organization
+- Enhanced tooltips with speed comparisons
+- Professional forensic capabilities
+- Optimized table loading for large result sets
+- Better progress feedback during result loading
+- Fixed QPainter warnings from animation conflicts
+- Improved graphics effect handling
+
+### 🛠️ Technical
+
+- Advanced forensic scanning engine
+- Enhanced multi-threaded scanning
+- Removed artificial display limits
+- Optimized performance for large result sets
+- Improved memory efficiency
+- Fixed animation system to prevent QPainter conflicts
+- Better graphics effect lifecycle management
+
+### 🐛 Bug Fixes
+
+- Fixed QPainter warnings caused by overlapping graphics effects
+- Resolved "Painter not active" errors during animations
+- Improved animation cleanup and resource management
+
+---
+
 ## v2004.2.8 - Phoenix Byte Edition (Stable) - November 4, 2025
 
 ### 🎉 Stable Release
