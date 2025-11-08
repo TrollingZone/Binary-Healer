@@ -1,6 +1,6 @@
-# 🧬 Binary Healer - Twin Helix Edition
+﻿# 🧬 Binary Healer - Twin Helix Edition
 
-![Version](https://img.shields.io/badge/version-2005.11.11-blue)
+![Version](https://img.shields.io/badge/version-2005.11.12-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![Status](https://img.shields.io/badge/status-Beta-orange)
 
@@ -18,7 +18,7 @@ Recover deleted files using multiple scanning methods and professional recovery 
 4. Choose scan mode (Quick/Deep/Forensic/Raw/Sector)
 5. Recover your files
 
-**New in v2005.11.11:** 🧬 **Forensic Scan** - 10x faster professional recovery with unlimited results display!
+**New in v2005.11.12:** 🔬 **Advanced File Carving** - 50+ file types, network drives, file validation, and no more freezing!
 
 ---
 
@@ -32,23 +32,36 @@ Recover deleted files using multiple scanning methods and professional recovery 
 - **Sector Scan** - Maximum recovery (~hours) 🔬
 
 ### Smart Recovery
-- **Unlimited results display** (tested with 173k+ files!)
-- Multi-drive selection
+- **Unlimited results display** (tested with 200k+ files!)
+- **Advanced file carving** - 50+ file types with header/footer detection
+- **File validation** - Integrity checking for recovered files
+- **Network drive support** - Scan mapped network drives
+- **Row numbers** for easy result reference
+- **All drive types** - Local, USB, Network, CD/DVD
+- Multi-drive selection with visual indicators
 - Real-time progress with ETA
-- Confidence ratings (High/Medium/Low)
+- Confidence ratings (High 95%/Medium 65%/Low 30%)
 - Search & filter by type/size
-- Batch recovery
+- Batch recovery with progress tracking
 - Modern dark sci-fi UI with smooth animations
 - Professional forensic analysis
+- 50+ file type signatures
 
 ---
 
-## 💡 What Can It Recover?
+## 💡 What Can It Recover✅
 
+### Local Drives (C:\, D:\, etc.):
 ✅ **Recycle Bin files** (95%+ success)  
 ✅ **Previous file versions** (70-90% if available)  
-✅ **Permanently deleted files** (30-60% success)  
+✅ **Permanently deleted files** (30-60% success via Raw/Sector scan)  
 ✅ **Multiple file types** (Images, Documents, Videos, Audio, etc.)
+
+### Network Drives (P:\, Z:\, etc.):
+✅ **Recycle Bin files** (95%+ success)  
+✅ **Quick/Deep scans** work perfectly  
+⚠️ **Raw/Sector scans** don't work (Windows limitation)  
+❌ **Permanently deleted files** cannot be recovered (no raw disk access)
 
 ❌ **Cannot recover:** Overwritten data, formatted drives, physically damaged disks
 
@@ -71,16 +84,16 @@ Recover deleted files using multiple scanning methods and professional recovery 
 
 ## 🐛 Troubleshooting
 
-**No files found?**
+**No files found✅**
 - Quick Scan only finds Recycle Bin files
 - Try Raw Scan for permanently deleted files
 - Files may be overwritten if disk was used heavily
 
-**Permission denied?**
+**Permission denied✅**
 - Right-click → Run as Administrator
 - Raw/Sector scans require admin privileges
 
-**Scan too slow?**
+**Scan too slow✅**
 - Click **Cancel Scan** for partial results
 - Try Quick or Deep Scan instead
 
@@ -117,21 +130,25 @@ Proprietary software. Free for personal use. See LICENSE for details.
 
 ---
 
-## 🎨 What's New in Twin Helix Edition
+## 🎨 What's New in v2005.11.12
 
-- 🧬 **Forensic Scan Mode** - Professional recovery 10x faster
-- ♾️ **Unlimited Results** - Display all found files (no 10k limit)
-- 🎭 **Modern UI** - Smooth animations and professional design
-- 🚀 **Enhanced Performance** - Optimized for large result sets
-- 🔧 **Bug Fixes** - Resolved animation conflicts and warnings
+- 🔬 **Advanced File Carving** - 50+ file types with header/footer detection
+- ✅ **File Validation** - Integrity checking for recovered files
+- 🔬 **Network Drive Support** - Scan mapped network drives (Z:, Y:, etc.)
+- 🔬 **All Drive Types** - Local (🔬), USB (🔬), Network (🔬), CD (🔬)
+-  **Row Numbers** - Easy result reference with numbered rows
+-  **Smart Confidence** - High (95%), Medium (65%), Low (30%)
+-  **No More Freezing** - Fixed double-click crash
+-  **Modern UI** - Smooth animations and professional design
+-  **Better Performance** - Optimized for 200k+ files
 
 ---
 
 <div align="center">
 
-**Binary Healer v2005.11.11 - Twin Helix Edition**
+**Binary Healer v2005.11.12 - Twin Helix Edition**
 
-Release Date: November 6, 2025
+Release Date: November 8, 2025
 
 Made with ❤️ and Python
 
