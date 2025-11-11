@@ -1,24 +1,30 @@
 ﻿# 🧬 Binary Healer - Twin Helix Edition
 
-![Version](https://img.shields.io/badge/version-2005.11.12-blue)
+![Version](https://img.shields.io/badge/version-2005.11.13-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![Status](https://img.shields.io/badge/status-Beta-orange)
+![License](https://img.shields.io/badge/license-Proprietary-red)
+![Source](https://img.shields.io/badge/source-Private-lightgrey)
 
 **Professional file recovery with advanced forensic technology**
 
 Recover deleted files using multiple scanning methods and professional recovery techniques.
 
+> **⚠️ PROPRIETARY SOFTWARE:** Binary Healer is closed-source software. Only compiled executables are distributed. Source code is private and not available for public access.
+
 ---
 
 ## 🚀 Quick Start
 
-1. Download from [Releases](../../releases)
+1. Download the latest release (binary only - source code is private)
 2. Run as Administrator (for forensic/raw scanning)
 3. Select drives to scan
 4. Choose scan mode (Quick/Deep/Forensic/Raw/Sector)
 5. Recover your files
 
-**New in v2005.11.12:** 🔬 **Advanced File Carving** - 50+ file types, network drives, file validation, and no more freezing!
+**New in v2005.11.13:** 💾 **Universal File System Support** - NTFS, FAT32, exFAT, EXT2/3/4 + Enhanced UI layout!
+
+> **Note:** Binary Healer is proprietary software. Only compiled binaries are distributed. Source code is not publicly available.
 
 ---
 
@@ -33,7 +39,7 @@ Recover deleted files using multiple scanning methods and professional recovery 
 
 ### Smart Recovery
 - **Unlimited results display** (tested with 200k+ files!)
-- **Advanced file carving** - 50+ file types with header/footer detection
+- **Advanced file carving** - 75+ file types with header/footer detection
 - **File validation** - Integrity checking for recovered files
 - **Network drive support** - Scan mapped network drives
 - **Row numbers** for easy result reference
@@ -45,7 +51,7 @@ Recover deleted files using multiple scanning methods and professional recovery 
 - Batch recovery with progress tracking
 - Modern dark sci-fi UI with smooth animations
 - Professional forensic analysis
-- 50+ file type signatures
+- 75+ file type signatures
 
 ---
 
@@ -118,37 +124,56 @@ Recover deleted files using multiple scanning methods and professional recovery 
 
 ## 🙏 Support
 
-- 🐛 [Report Issues](../../issues)
-- ⭐ Star the project
-- 📥 [Download Latest](../../releases)
+- 🐛 Report Issues (contact developer)
+- ⭐ Support the project
+- 📥 Download Latest Release (binary distribution only)
 
 ---
 
 ## 📄 License
 
-Proprietary software. Free for personal use. See LICENSE for details.
+**Proprietary Software** - All Rights Reserved
+
+- ✅ Free for personal use
+- ❌ Source code is private and not available
+- ❌ No redistribution or modification allowed
+- ❌ Commercial use requires license
+
+Binary Healer is closed-source software. Only compiled executables are distributed to end users.
 
 ---
 
-## 🎨 What's New in v2005.11.12
+## 🎨 What's New in v2005.11.13
 
-- 🔬 **Advanced File Carving** - 50+ file types with header/footer detection
-- ✅ **File Validation** - Integrity checking for recovered files
-- 🔬 **Network Drive Support** - Scan mapped network drives (Z:, Y:, etc.)
-- 🔬 **All Drive Types** - Local (🔬), USB (🔬), Network (🔬), CD (🔬)
--  **Row Numbers** - Easy result reference with numbered rows
--  **Smart Confidence** - High (95%), Medium (65%), Low (30%)
--  **No More Freezing** - Fixed double-click crash
--  **Modern UI** - Smooth animations and professional design
--  **Better Performance** - Optimized for 200k+ files
+- 💾 **Universal FS Support** - NTFS, FAT32, exFAT, EXT2/3/4 all work perfectly
+- 🔍 **Auto FS Detection** - Shows file system type for each drive
+- 🎨 **Enhanced UI Layout** - Better organized scan buttons in rows
+- 🎯 **Larger Primary Buttons** - Quick and Forensic scans more prominent
+- 🌈 **Color-Coded Modes** - Each scan type has distinct visual identity
+- 📊 **FS Badges** - Drive buttons show file system (e.g., "C: [NTFS]")
+- 🔬 **75+ File Types** - Massive expansion with HEIC, AVIF, RAW, OPUS, and more
+- 🌐 **Network Drive Support** - Scan mapped network drives (Z:, Y:, etc.)
+- 🔢 **Row Numbers** - Easy result reference with numbered rows
+- 🛡️ **No More Freezing** - Fixed scan cancellation issues
+- ⚡ **Better Performance** - Optimized for 200k+ files
+
+---
+
+## 📦 Release Information
+
+**Version:** 2005.11.13 - Twin Helix Edition (Beta)  
+**Release Date:** November 10, 2025  
+**Distribution:** Binary only (compiled executable)  
+**Source Code:** Private - Not publicly available  
+**Platform:** Windows 10/11 (64-bit)
 
 ---
 
 <div align="center">
 
-**Binary Healer v2005.11.12 - Twin Helix Edition**
+**Binary Healer v2005.11.13 - Twin Helix Edition**
 
-Release Date: November 8, 2025
+© 2025 - Proprietary Software - All Rights Reserved
 
 Made with ❤️ and Python
 

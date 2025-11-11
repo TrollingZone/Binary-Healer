@@ -1,5 +1,104 @@
 # 📜 Changelog
 
+> **Binary Healer** is proprietary software. Source code is private.  
+> Only compiled binaries are distributed to end users.
+
+---
+
+## v2005.11.13 - Twin Helix Edition (Beta) - November 10, 2025
+
+**🎉 MAJOR RELEASE - Universal File System Support + Enhanced UI**
+
+This release brings comprehensive file system support and a completely redesigned user interface for better usability and performance.
+
+### 🚀 Enhanced Features
+
+**🔬 Expanded File Carving (75+ File Types!):**
+- 📁 **75+ File Signatures** - Massive expansion from 50 to 75+ supported file types
+- 🎯 **Enhanced Detection** - More accurate file type identification
+- 🧬 **Better Recovery** - Improved success rates for all file types
+- ✅ **Advanced Validation** - Enhanced integrity checking
+
+**Additional File Types Added:**
+- 🎨 Images: HEIC, HEIF, AVIF, RAW formats (CR2, NEF, ARW, DNG)
+- 📄 Documents: YAML, YML, INI, CFG, LOG, MD
+- 🎬 Videos: 3GP, TS, VOB, OGV, DivX, M4V
+- 🎵 Audio: OPUS, AIFF, APE, ALAC, MIDI
+- 📦 Archives: XZ, CAB, DMG, PKG, DEB, RPM
+- 💾 Code: TypeScript, JSX, TSX, Swift, Kotlin, Rust, Go
+- 🗄️ Database: SQL, DBF, MDF, LDF
+
+**💾 Universal File System Support:**
+- ✅ **NTFS** - Full support with MFT analysis
+- ✅ **FAT32** - Complete compatibility for all scans
+- ✅ **exFAT** - Modern flash drive support
+- ✅ **EXT2/3/4** - Linux file system support
+- 🔍 **Auto-Detection** - Automatically detects and displays file system type
+- 📊 **FS Badges** - Drive buttons show file system type (e.g., "C: [NTFS]")
+- ⚡ **All Scan Modes** - Quick, Deep, Forensic, Raw, and Sector work on all FS types
+
+**🎨 Enhanced UI Layout:**
+- 📐 **Better Organization** - Scan buttons arranged in logical rows
+- 🎯 **Larger Buttons** - Quick and Forensic scans are bigger (most used)
+- 🌈 **Color Coding** - Each scan mode has distinct colors
+- 📊 **Section Headers** - Clear visual separation with gradient headers
+- 💡 **Improved Tooltips** - More detailed information with FS compatibility
+- 🎨 **Modern Design** - Cleaner, more professional appearance
+- 📱 **Better Spacing** - Improved readability and visual hierarchy
+
+**🛡️ Scan Cancellation Improvements:**
+- ✅ **Non-Blocking Cancel** - No more UI freezing when cancelling scans
+- ⚡ **Instant Response** - Cancel button responds immediately
+- 🔄 **Background Cleanup** - Scans terminate gracefully in background
+- 🎯 **Frequent Checks** - Cancellation checked every 100 entries for responsiveness
+- 💾 **All Scan Types** - Works for Quick, Deep, Forensic, Raw, and Sector scans
+
+**🔬 Enhanced Forensic Scanning:**
+- ✅ **pytsk3 Integration** - Professional forensic file system analysis
+- 💾 **Multi-FS Support** - NTFS, FAT32, exFAT, EXT2/3/4 file systems
+- 🎯 **Better Error Messages** - Clear feedback for admin requirements
+- 🔍 **File System Detection** - Automatic detection and reporting of FS type
+- ⚡ **Optimized MFT Scanning** - Faster and more reliable
+
+**Performance & Stability:**
+- ⚡ Faster file signature matching
+- 🛡️ Better error handling with detailed messages
+- 💾 Improved memory efficiency
+- 🔄 More reliable scanning with cancellation support
+- 🎯 Responsive UI during long operations
+
+### 🐛 Bug Fixes
+
+- **Fixed UI freeze on scan cancellation** - Non-blocking cancel with background cleanup
+- **Fixed MFT scanner hanging** - Added frequent cancellation checks
+- **Fixed shadow copy scan freezing** - Cancellation checks in all loops
+- **Fixed recycle bin scan not responding** - Added cancellation support
+- **Fixed all file system detection issues** - Proper FS detection for all drives
+- **Fixed UI layout issues** - Better button organization and spacing
+- Fixed file type detection edge cases
+- Improved handling of corrupted file headers
+- Better validation for complex file formats
+- Enhanced stability during long scans
+- Better admin privilege detection and error messages
+- Improved drive enumeration reliability
+
+### 📝 Technical Details
+
+**File System Detection:**
+- Uses Windows API `GetVolumeInformationW` for accurate FS detection
+- Displays FS type in drive selection UI
+- Validates FS compatibility before scanning
+- Provides clear feedback for unsupported operations
+
+**UI Improvements:**
+- Row 1: Quick Scan (80px) + Forensic Scan (80px) - Primary actions
+- Row 2: Deep (70px) + Raw (70px) + Sector (70px) - Advanced options
+- Cancel button: Full width (50px) - Always accessible
+- Section headers with gradient backgrounds
+- Consistent color scheme across all elements
+
+---
+
 ## v2005.11.12 - Twin Helix Edition (Beta) - November 8, 2025
 
 ### 🚀 New Features
@@ -219,6 +318,19 @@ Stable release of Binary Healer - a sci-fi themed file recovery tool with raw di
 
 ### 📝 Notes
 
-This is a BETA release. Please report bugs and feedback via GitHub Issues.
+This is a BETA release. Please report bugs and feedback to the developer.
 
 Recovery success depends on disk usage after deletion. Act fast for best results!
+
+---
+
+## 📝 Distribution Notice
+
+**Binary Healer** is proprietary closed-source software.
+
+- ✅ Compiled binaries available for download
+- ❌ Source code is private and not publicly available
+- ❌ No redistribution or modification permitted
+- 📅 Released: November 10, 2025
+
+For support or inquiries, contact the developer directly.
